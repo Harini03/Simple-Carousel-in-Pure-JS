@@ -6,8 +6,14 @@ body {font-family: Verdana, sans-serif; margin:0}
   position: relative;
   margin: 1%;
 }
-.countSelectorSection{
+.countSelectorSection,.autoCheck{
   margin: 1rem;
+  display: inline-block;
+}
+input[type="checkbox"]{
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
 }
 img {vertical-align: middle;}
 
@@ -34,12 +40,12 @@ img {vertical-align: middle;}
   user-select: none;
 }
 .prev{
-  left: 0;
+  left: 1%;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 1%;
   border-radius: 3px 0 0 3px;
 }
 
